@@ -8,12 +8,12 @@
   
 # [Retos de programación en cualquier lenguaje - Primer nivel: salida de mensajes](https://platzi.com/comunidad/retos-de-programacion-en-cualquier-lenguaje-primer-nivel-salida-de-mensajes/)
 
-- Cuando aprendes a programar uno de los principales retos es refozar el aprendizaje para que fluya.
+Cuando aprendes a programar uno de los principales retos es refozar el aprendizaje para que fluya.
 Por este motivo te comparto una serie de ejercicios para nunca pares de aprender que además pueden ir enriqueciendo tu repositorio personal.
 
-  Estos ejercicios pueden ser aplicados a tu lenguaje de programación favorito, harás uso de lógica y matemática sencilla. Conforme avancemos el nivel de dificultad aumentará 💪  
+Estos ejercicios pueden ser aplicados a tu lenguaje de programación favorito, harás uso de lógica y matemática sencilla. Conforme avancemos el nivel de dificultad aumentará 💪  
   
-  No existe una respuesta única ya que puedes resolverlos de distinta forma
+No existe una respuesta única ya que puedes resolverlos de distinta forma
 
 # Reto #1 “Hola Mundo”
 
