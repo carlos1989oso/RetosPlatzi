@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-import math
 
 word1 = input("\nEscribe la primera palabra: ")
 word2 = input("\nEscribe la segunda palabra: ")
