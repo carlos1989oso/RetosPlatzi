@@ -1,4 +1,4 @@
-# RetosPlatzi
+# Retos[Platzi](https://platzi.com/)
 
 4 Niveles de retos de platzi, los lenguajes utlizados en los ejercicios seran:
 
