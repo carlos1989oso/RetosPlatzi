@@ -3,7 +3,7 @@ import math
 
 value = False
 while value != True:
-  numMayor = input('\nEscribe un limite numerico:')
+  numMayor = input('\nEscribe un limite superior:')
   try:
     numMayor = int(numMayor)
     value = True
@@ -12,14 +12,25 @@ while value != True:
 
 value2 = False
 while value2 != True:
-  numMenor = input('\nEscribe un numero: ')
+  numMenor = input('\nEscribe un limite inferior: ')
   try:
     numMenor = int(numMenor)
     value2 = True
   except:
     value = False
 
-if numMayor >= numMenor:
-  print("\nEl número " + str(numMenor) + " se encuentra en el rango, gracias")
-elif numMenor > numMayor:
+value2 = False
+while value2 != True:
+  numeroAsk = input('\nEscribe un numero: ')
+  try:
+    numeroAsk = int(numMenor)
+    value2 = True
+  except:
+    value = False
+
+if numeroAsk >= numMenor and numeroAsk <= numMayor:
+  print("\nEl número " + str(numeroAsk) + " se encuentra en el rango, gracias")
+elif numeroAsk > numMayor:
+  print("\nEl número " + str(numMenor) + " excede el límite permitido")
+elif numMenor < numMayor:
   print("\nEl número " + str(numMenor) + " excede el límite permitido")
