@@ -1,14 +1,35 @@
 # -*- coding: utf-8 -*-
 import math
 
-print("Todos los datos deben ser en minusculas")
-print("----------------------------------------")
-nameUser = input("\nIngresa tu nombre: ")
-lastNameUser = input("\nIngresa tu apellido: ")
-countryUser = input("\nIngresa tu país: ")
+value = False
+while value != True:
+  print("Escribe una oracion de 10 o mas caracteres")
+  print("----------------------------------------")
+  phrase = input("\nIngresa tu frase de 10 caracteres o mas: ")
+  lenPhrase = len(phrase)
+  if lenPhrase >= 10:
+    value = True
 
-nameUser = nameUser.title()
-lastNameUser = lastNameUser.title()
-countryUser = countryUser.title()
+value = False
+while value != True:
+  print("\n----------------------------------------")
+  numMenor = input("\nDigita un numero entre 1 y " + str(lenPhrase) + ": ")
+  try:
+    numMenor = int(numMenor)
+    value = True
+  except:
+    value = False
 
-print("\n" + nameUser + " " + lastNameUser + " es de " + countryUser)
+value = False
+while value != True:
+  print("\n----------------------------------------")
+  numMayor = input("\nDigita un numero entre " + str(numMenor) + " y " + str(lenPhrase) + ": ")
+  try:
+    numMayor = int(numMayor)
+    if numMayor > numMenor:
+      value = True
+  except:
+    value = False
+
+print("\nEl fragmento de tu frase es: \n")
+print(phrase[numMenor - 1 :numMayor])
