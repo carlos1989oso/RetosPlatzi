@@ -24,14 +24,14 @@ value2 = False
 while value2 != True:
   numeroAsk = input('\nEscribe un numero: ')
   try:
-    numeroAsk = int(numMenor)
+    numeroAsk = int(numeroAsk)
     value2 = True
   except:
     value = False
 
-if numeroAsk >= numMenor and numeroAsk <= numMayor:
-  print("\nEl número " + str(numeroAsk) + " se encuentra en el rango, gracias")
-elif numeroAsk > numMayor:
-  print("\nEl número " + str(numMenor) + " excede el límite permitido")
+if numeroAsk > numMayor:
+  print("\nEl número " + str(numeroAsk) + " excede el límite permitido")
 elif numeroAsk < numMenor:
-  print("\nEl número " + str(numMenor) + " no alcanza el límite permitido")
+  print("\nEl número " + str(numeroAsk) + " no alcanza el límite permitido")
+elif numeroAsk >= numMenor and numeroAsk <= numMayor:
+  print("\nEl número " + str(numeroAsk) + " se encuentra en el rango, gracias")
