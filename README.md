@@ -1,6 +1,6 @@
 # Retos[Platzi](https://platzi.com/)
 
-4 Niveles de retos de platzi, los lenguajes utlizados en los ejercicios seran:
+4 Niveles de retos de platzi, los lenguajes utilizados en los ejercicios seran:
 
 - Python
 - JavaScript
